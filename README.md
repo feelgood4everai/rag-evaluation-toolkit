@@ -57,11 +57,7 @@ Real-world impact from deployments:
 
 ## 🤝 Consulting
 
-I help enterprises deploy production AI systems. Current availability: **Q2 2026**
-
-- **Rate**: £650-750/day
-- **Duration**: 3-6 month engagements
-- **Focus**: AI/ML deployment, RAG systems, agent orchestration
+I help enterprises deploy production AI systems.
 
 📩 [Connect on LinkedIn](https://linkedin.com/in/anandbg)
 
