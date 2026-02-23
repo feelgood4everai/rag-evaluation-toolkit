@@ -10,7 +10,7 @@ Production-ready toolkit for evaluating RAG pipelines with real-world metrics
 • Cost optimization out of the box
 • Real-world tested (not just demos)
 
-📊 Live demo: https://huggingface.co/spaces/feelgood4everai/rag-evaluation-toolkit
+📊 Live demo: https://huggingface.co/spaces/AnandGeetha/rag-evaluation-toolkit
 💻 Code: https://github.com/feelgood4everai/rag-evaluation-toolkit
 
 This is the toolkit I wish I had 6 months ago.
