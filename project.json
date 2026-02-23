@@ -1,0 +1,14 @@
+{
+  "name": "rag-evaluation-toolkit",
+  "title": "RAG Evaluation Toolkit",
+  "created": "2026-02-23T21:08:52.831812",
+  "github_url": "https://github.com/feelgood4everai/rag-evaluation-toolkit",
+  "huggingface_url": "https://huggingface.co/spaces/feelgood4everai/rag-evaluation-toolkit",
+  "tags": [
+    "RAG",
+    "LLM",
+    "evaluation",
+    "production"
+  ],
+  "next_action": "Deploy to Hugging Face Space"
+}

@@ -1,0 +1,30 @@
+My client's bill went from £500/month to £5,000/month overnight. This brought it back to £2,000.
+
+Introducing: RAG Evaluation Toolkit
+
+Production-ready toolkit for evaluating RAG pipelines with real-world metrics
+
+🔧 What it does:
+• Rag pipeline monitoring
+• Production-ready evaluation metrics
+• Cost optimization out of the box
+• Real-world tested (not just demos)
+
+📊 Live demo: https://huggingface.co/spaces/feelgood4everai/rag-evaluation-toolkit
+💻 Code: https://github.com/feelgood4everai/rag-evaluation-toolkit
+
+This is the toolkit I wish I had 6 months ago.
+
+---
+
+I'm helping enterprises deploy production AI systems.
+
+If you're struggling with:
+• LLM cost optimization
+• RAG deployment challenges
+• AI agent debugging
+• Data pipeline monitoring
+
+Let's talk. Available Q2 2026 for contract engagements.
+
+#AIEngineering #MLEngineering #DataEngineering #RAG #LLM #evaluation #ProductionAI #ConsultantLife #OpenSource
