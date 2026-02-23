@@ -1,3 +1,15 @@
+---
+title: RAG Evaluation Toolkit
+emoji: 🎯
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 4.0.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # RAG Evaluation Toolkit
 
 After deploying 5 RAG systems for enterprise clients, I built this toolkit to stop guessing and start measuring. Most teams deploy RAG and hope it works. This toolkit shows you exactly where it breaks.
