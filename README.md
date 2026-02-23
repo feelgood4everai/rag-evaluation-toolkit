@@ -38,7 +38,7 @@ python app.py
 
 ## 📊 Live Demo
 
-Try it now: [Hugging Face Space](https://huggingface.co/spaces/feelgood4everai/rag-evaluation-toolkit)
+Try it now: [Hugging Face Space](https://huggingface.co/spaces/AnandGeetha/rag-evaluation-toolkit)
 
 ## 🛠️ Tech Stack
 
