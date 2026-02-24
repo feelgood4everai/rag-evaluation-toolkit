@@ -1,82 +1,56 @@
----
-title: RAG Evaluation Toolkit
-emoji: 🎯
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: 4.0.0
-app_file: app.py
-pinned: false
-license: mit
----
-
 # RAG Evaluation Toolkit
 
-After deploying 5 RAG systems for enterprise clients, I built this toolkit to stop guessing and start measuring. Most teams deploy RAG and hope it works. This toolkit shows you exactly where it breaks.
+Evaluate RAG (Retrieval-Augmented Generation) pipelines with production-ready metrics. Stop guessing if your RAG system works—measure it.
 
-## 🎯 What This Does
+## Why This Exists
 
-Production-ready toolkit for evaluating RAG pipelines with real-world metrics
+After deploying 5 RAG systems for enterprise clients, I kept hitting the same problems:
+- Silent failures in production
+- Costs spiraling unexpectedly  
+- Quality degrading over time
+- Debugging taking hours instead of minutes
 
-## 💡 The Problem
+This toolkit gives you visibility into what's actually happening in your RAG pipeline.
 
-Most teams building AI systems focus on the demo. The real work starts when you go to production:
-- Things break silently
-- Costs spiral unexpectedly  
-- Quality degrades over time
-- Debugging is nearly impossible
+## What It Measures
 
-## ✅ The Solution
+- **Retrieval accuracy** — Is your system finding the right context?
+- **Answer relevance** — Are responses actually useful?
+- **Latency & cost** — Track performance per query
+- **Drift detection** — Catch when quality degrades
 
-This toolkit gives you:
-- **Visibility**: See what's actually happening in your system
-- **Control**: Make changes with confidence
-- **Cost Management**: Optimize without sacrificing quality
-- **Production Readiness**: Stop treating AI like a prototype
-
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# Clone repo
-git clone https://github.com/feelgood4everai/rag-evaluation-toolkit.git
-cd rag-evaluation-toolkit
-
-# Install
 pip install -r requirements.txt
-
-# Run
 python app.py
 ```
 
-## 📊 Live Demo
+Then open `http://localhost:7860` in your browser.
 
-Try it now: [Hugging Face Space](https://huggingface.co/spaces/AnandGeetha/rag-evaluation-toolkit)
+## Usage
 
-## 🛠️ Tech Stack
+1. **Upload your documents** — PDF, TXT, or paste text directly
+2. **Configure your retriever** — Choose embedding model, chunk size, overlap
+3. **Add test questions** — Ground truth pairs or let it auto-generate
+4. **Run evaluation** — Get metrics on accuracy, latency, cost
+5. **Iterate** — Adjust parameters and compare runs
+
+## Live Demo
+
+[Try it on Hugging Face](https://huggingface.co/spaces/AnandGeetha/rag-evaluation-toolkit)
+
+## Tech Stack
 
 - Python 3.11+
-- Gradio
-- OpenAI/Anthropic APIs
-- Standard ML libraries
+- Gradio for UI
+- OpenAI/Anthropic APIs for LLM evaluation
+- Sentence transformers for embeddings
 
-## 📈 Results
+## License
 
-Real-world impact from deployments:
-- **40% cost reduction** on LLM bills
-- **99.5% uptime** on production systems
-- **3x faster** debugging cycles
-- **Zero** production incidents in 6 months
-
-## 🤝 Consulting
-
-I help enterprises deploy production AI systems.
-
-📩 [Connect on LinkedIn](https://linkedin.com/in/anandbg)
-
-## 📄 License
-
-MIT - Use it, modify it, deploy it.
+MIT — Use it, modify it, deploy it.
 
 ---
 
-*Built by [Anand](https://github.com/feelgood4everai) • 26 years delivering production systems*
+*Built by [Anand](https://github.com/feelgood4everai) after one too many 2am production incidents.*
